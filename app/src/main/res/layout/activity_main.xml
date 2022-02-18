@@ -1,0 +1,52 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt1"
+        android:hint="Enter Your Name"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt2"
+        android:hint="Enter Your Friend Name"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt3"
+        android:hint="Enter Your Friend Nickname"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt4"
+        android:hint="Describe Your Friend"
+        android:layout_margin="5dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:id="@+id/btn1"
+        android:layout_margin="5dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:id="@+id/btn2"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>

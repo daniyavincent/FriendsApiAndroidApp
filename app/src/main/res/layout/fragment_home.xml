@@ -1,0 +1,28 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#88DF8C"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt1"
+        android:hint="Enter Your Name"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt2"
+        android:inputType="number"
+        android:hint="Enter Your Roll No"
+        android:layout_margin="5dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:id="@+id/btn1"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>

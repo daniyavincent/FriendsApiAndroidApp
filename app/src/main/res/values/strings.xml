@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FriendsApiApp</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">Add Student</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
